@@ -18,7 +18,7 @@ struct UnitLikeStruct;
 
 #[cfg(test)]
 mod tests {
-    use super::*;
+    use super::*;   
 
     #[test]
     fn classic_c_structs() {
