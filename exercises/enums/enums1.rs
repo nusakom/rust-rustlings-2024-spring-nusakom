@@ -2,16 +2,21 @@
 //
 // No hints this time! ;)
 
-// I AM NOT DONE
 
-#[derive(Debug)]
-enum Message {
-    // TODO: define a few types of messages as used below
-}
 
-fn main() {
-    println!("{:?}", Message::Quit);
-    println!("{:?}", Message::Echo);
-    println!("{:?}", Message::Move);
-    println!("{:?}", Message::ChangeColor);
+#[derive(Debug)]  
+  
+enum Message {  
+    Quit,  
+    Echo,  
+    Move,  
+    ChangeColor,  
+    // 这里可以定义更多的消息类型  
+}  
+  
+fn main() {  
+    println!("{:?}", Message::Quit);  
+    println!("{:?}", Message::Echo);  
+    println!("{:?}", Message::Move);  
+    println!("{:?}", Message::ChangeColor);  
 }
